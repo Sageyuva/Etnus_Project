@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Grape+Nuts&family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Mochiy+Pop+P+One&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,800&family=Poppins:ital,wght@0,300;1,200&family=Righteous&family=Roboto+Mono:wght@700&family=Smooch&display=swap');
+.allMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 96%;
+    padding-top: 2px;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.CardsDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.CardShow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px;
+    border-radius: 1rem;
+}
+
+.OrdrBtnn {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 20px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 0.7rem;
+    margin-bottom: 2px;
+}
+
+.CardImg {
+    width: 280px;
+    border-radius: 1rem;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.PriceTag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-size: 15px;
+    gap: 5px;
+}
+
+.RedP {
+    color: red;
+    text-decoration: line-through;
+}
+
+.disc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 250px;
+    font-size: 14px;
+    font-weight: bold;
+    text-overflow: auto;
+}
+
+.heading {
+    font-weight: bolder;
+}
+
+.FooterMain {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 400px;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+}
+
+.contact {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+
+.Address {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+
+.addre {
+    font-size: 15px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
